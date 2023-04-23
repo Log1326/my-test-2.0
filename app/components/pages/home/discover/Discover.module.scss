@@ -1,0 +1,9 @@
+.discovery {
+	@apply flex gap-7 mb-10;
+	> .top_video {
+		@apply w-2/3;
+	}
+	> .random_video {
+		@apply w-1/3;
+	}
+}

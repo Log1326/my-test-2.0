@@ -1,0 +1,15 @@
+.footer {
+	@apply flex justify-between items-center  w-full h-32 relative;
+	.status {
+		@apply absolute bottom-0 flex items-center gap-3;
+		.icons-uploaded {
+			color: #4b85e7;
+		}
+		.success-icon {
+			color: #56db8b;
+		}
+	}
+	> span {
+		@apply absolute bottom-0 right-0;
+	}
+}
